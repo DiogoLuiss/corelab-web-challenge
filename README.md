@@ -12,6 +12,7 @@
 
 <p>Register Page</p>
 
+<img src="./src/assets/Interface.gif"  width="600px" alt="UpdateCarPage.png">
 
 <h2>project's goal</h2> 
 
