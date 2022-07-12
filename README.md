@@ -1,75 +1,109 @@
-## Corelab Challenge
+<h1>Corelab challenge</h1>
 
-Welcome to the **Corelab Challenge**! Here you'll show us how awesome you are at coding.
-In order to do that, we've prepared two repositories which you will fork and program.
 
-### The Challenge
+<img src="./src/assets/FilterPage.png"  width="600px" alt="Project-Video">
+<p>Filter Page</p>
 
-You will create a web app which will consume an API to manage the CRUD of **vehicles**.
+<img src="./src/assets/RegisterPage.png"  width="600px" alt="Project-Video">
 
-The frontend repository is this: https://github.com/corelabbr/corelab-web-challenge
+<p>Register Page</p>
 
-If you feel more comfortable, you can pick another React framework and show us your skills.
+<img src="./src/assets/UpdateCarPage.png"  width="600px" alt="UpdateCarPage.png">
 
-The backend repository is this: https://github.com/corelabbr/corelab-api-challenge
+<p>Register Page</p>
 
-If you feel more comfortable, you can pick another Node JS framework and show us your skills.
 
-Try to show us all the skills you have, the more you do and care about the code, the more we get impressed. That's your **CHANCE**.
+<h2>project's goal</h2> 
 
-### Mobile Layout
-The Mobile Layout can be found here: https://shorturl.ae/NTyff
-### Desktop Layout
-The Desktop Layout can be found here: https://shorturl.ae/xEIEo
+The main goal of the project is the CRUD of the vehicles. Create/Read/Update/Delete
 
-### Backend
-Repository: 
-1. Node: ^16.15.0
-2. NPM: ^8.5.5
-3. Framework: Adonis TS or any other node framework you know.
-4. Database: Choose your own, you can even save in memory.
+<a href="https://www.youtube.com/watch?v=qFLhGq0060w" target="_blank"  ><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
 
-### Frontend
-Repository: 
-1. Node: ^16.15.0
-2. NPM: ^8.5.5
-3. Framework: React TS
-4. Sass or other preprocessor
+<h2>Project Description</h2>
 
-### The Required Features
-1. On clicking on an "Add new vehicle" button, a new form opens up to create a vehicle.
-2. On submitting the form, it needs to save the new vehicle.
-3. On typing at the search input, it should filter the vehicles comparing to any of the vehicles property. E.g.: it should compare the searched term to either name, or description, or price, or any other field in the vehicle.
-4. On clicking on a heart icon, it should favorite the vehicle.
-5. On clicking on an edit icon, it should open the form again to update the selected vehicle.
-6. On clicking on an delete icon, it should remove the vehicle.
-7. On clicking on the filter icon, it should open the filters form, and when the filters are selected, it should filter the vehicles based on those values.
+<ul>
+<li>Project made from Javascript, React.js with StyledComponents </li>
 
-### What are we assessing
-1. Code Quality
-2. Code Format
-3. Code Perfomance
-4. Frontend Design
-5. If your code is Easily Readable
-6. Mobile First approach
-7. Code Responsability
-8. Features Work
-9. Responsiveness
+<li>To create the forms we used the react hook form together with Yup for data validation</li>
 
-### Want to impress us even more?
-If you feel comfortable and want to impress us even more, you can do the following:
+<li>To have more control over the application's routes the dom react router was used </li>
 
-1. Work on correct types and interfaces
-2. Work on eslint rules
-3. Work prettier config
-4. Work on docker containers
-5. Work on tests
-6. Work on CI/CD
+<li>Used Context API to share "global" data for the entire application</li>
 
-### What to do when you finish?
+<li>Used LocalStorage for bookmark functionality</li>
 
-Create a file PULL_REQUEST.md where you will describe what you did and how in as much detail as possible. Feel free to add videos for better explanation.
+<li>Used the API that I developed myself.</li>
 
-Create a new pull request using the same branch name for Backend and Frontend
+<li>Various components created for greater code organization</li>
 
-Send us the pull requests and that's all!
+<li>Eslint and Prettier were used to standardize and organize the code</li>
+
+<li>Extensive use of Filter and Map for input functions and Filter form</li>
+
+</ul>
+
+<a href="https://www.youtube.com/watch?v=qFLhGq0060w" target="_blank"  ><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+
+<h2>project features</h2> 
+
+<ul>
+
+<li>When you click the "Add New Vehicle" button, a new form opens to create a vehicle.</li>
+
+<li>When you submit the form, the new vehicle is saved. </li>
+
+<li>By typing something into the Search Input, the vehicles are filtered by comparing whatever the ownership of the vehicle is. For example: the search term is compared with the name, or the description, or the price, or any other field of the vehicle.</li>
+
+<li>By clicking on a heart icon, the vehicle is favorited. </li>
+
+<li>Clicking an edit icon opens the form for the selected vehicle again to edit it.</li>
+
+<li>Clicking a delete button removes the vehicle. </li>
+
+<li>Clicking on the filter button opens a filter form, and when the filters are selected, it filters the vehicles based on the values. </li>
+
+<li>The cards are background color based on the color of the vehicle (e.g. white vehicle, card is white).</li>
+
+<li>It is also possible to place or change an image of the vehicle when creating and editing the car.</li>
+
+</ul>
+
+
+<h2>🤝 Collaborator </h2> 
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+      <img src="./src/assets//Perfil.jpg"  width="100px;" alt="Foto do Diogo Luis no GitHub">
+      <br>
+        <sub>
+          <b>Diogo Luis</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+
+
+
+<a href="https://www.youtube.com/watch?v=qFLhGq0060w" target="_blank"  ><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
+
+
+
+
+<h2> 👨‍💻 Technologies </h2>
+
+Technologies used in this project:
+
+<br>
+
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src=https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white />
+
+
+
+
+
